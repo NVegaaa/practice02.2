@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="399.0" prefWidth="480.0" style="-fx-background-color: #8B0000;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pizzza.Profile">
+   <children>
+      <Text fill="BLANCHEDALMOND" layoutX="54.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="BLANCHEDALMOND" layoutX="186.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile">
+         <font>
+            <Font name="Serif Regular" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="BLANCHEDALMOND" layoutX="54.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname:">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="BLANCHEDALMOND" layoutX="54.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="BLANCHEDALMOND" layoutX="54.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BirthDay:">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Text>
+      <Label layoutX="266.0" layoutY="112.0" text="name" textFill="BLANCHEDALMOND">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="177.0" text="surname" textFill="BLANCHEDALMOND">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="239.0" text="address" textFill="BLANCHEDALMOND">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="309.0" text="b_day" textFill="BLANCHEDALMOND">
+         <font>
+            <Font name="Serif Regular" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #8B0000;" text="&lt;&lt;&lt;" textFill="BLANCHEDALMOND">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
